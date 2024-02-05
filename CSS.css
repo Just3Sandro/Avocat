@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;/*pour empiler verticalement les sections*/
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	position: relative;
+	background-color: #fff;	
+}
+header{
+	width: 100%;
+	top: 0;
+	/*position: relative;*/
+	background-color: #ADD8E6;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items; center;
+	height: 80px;
+}
+#Inscription{
+    background-color: #E8E8E8;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 20px;
+
+}
+#Inscription h2{
+	width: 50%;
+}
+#inscription, #presentation{
+	margin: 20px 0;
+	text-algin: center;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 200px;
+	justify-content: center;/*centrer les elements horizontalement*/
+	align-items: center;/*center les elements verticalement*/
+}
+.grid-item {
+	max-width: 400px; /*pour que les images ne depassent pas de leur contenur*/
+	text-align: center;
+	border: 2px solid #ffcc29;
+	border-radius: 10px;
+	background-color: #fff;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.grid-item img{
+	width: 350px;
+	height: auto;
+	color: #333;
+}
+.image-description{
+	width: 300px;
+	text-align: center;
+	margin-top: 10px;
+	color: #555;
+}
+#myMap {
+	margin-right: auto;
+	width: 400px;
+	height: 200px;
+}
+#map-title {
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+footer {
+	margin-top: 50px;
+	overflow: hidden;
+	background-color: #9c897a;
+	color: white;
+	padding: 10px;
+	position: relative;
+ 	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.footer-left,
+.footer-right {
+	flex : 1;
+}
+.footer-left{
+	text-align:center;
+}
+.footer-middle {
+	flex:1;
+	display:flex;
+	align-items:stretch;
+}
+#divider {
+	height: 250px;
+	width: 2px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 0 auto;
+}

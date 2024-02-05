@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="CSS.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <title>Cabinet Avocat</title>
+</head>
+<body>
+	<header>
+		<h1>Cabinet de TOULOUSE</h1>
+</header>
+<section id="Inscription">
+        <h2>Bienvenue au cabinet de blabla nous proposons des services de blabla je sais pas trop quoi!</h2>
+        <form id="form" action="#">
+            <input type="email" name="email" id="email" class="form-control" placeholder="Entrer votre Email"
+                required />
+            <input id="submit" type="submit" value="Let's go" class="btn">
+        </form>
+</section>    
+<section id="presentation">
+	<div class="grid-container">
+		<div class="grid-item">
+			<h2 class="image-title"> TATA MANU</h3>
+			<img src="img/images.jpeg" alt="pics1">
+			<p class="image-description">PRESENTATION MANU : VOICI TATA MANU LA MEILLEURE DES TATA qui travail comme personne et qui est la plus grande avocate du monde voir de l'univers !</p>
+        	</div>
+		<div class="grid-item">
+			<h2 class="image-title"> COLLEGUE</h3>
+	    		<img src="img/femme2.jpg" alt="pics2">
+			<p class="image-description">PRESENTATION COLEGUE de TATA MANU qui est je ne sais pas trop mais surement une personne formidable!</p>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="footer-left">
+		<p> information quelconque</p>
+		<p> Reseau sociaux ou autres</p>
+		<span> copyright 2023, Pedro</span>
+	</div>
+	<div class="footer-middle">
+		<div id="divider"></div>
+	</div>
+	<div class='footer-right'>
+		<div id="map-title">
+			<h3>Voici ou vous pouvez nous retrouver:</h3>
+		</div>
+		<div id="myMap"></div>
+		<script src="js.js"></script>
+	</div>
+</footer> 
+</body>
+</html>
